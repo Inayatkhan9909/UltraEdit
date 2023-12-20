@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraEdit2", "UltraEdit2\UltraEdit2.csproj", "{67CB706E-FE1C-4032-A2E0-79E6EAA4496B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67CB706E-FE1C-4032-A2E0-79E6EAA4496B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CB706E-FE1C-4032-A2E0-79E6EAA4496B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CB706E-FE1C-4032-A2E0-79E6EAA4496B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CB706E-FE1C-4032-A2E0-79E6EAA4496B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B46D6973-B225-41A6-8515-B26AE5AE0FCF}
+	EndGlobalSection
+EndGlobal

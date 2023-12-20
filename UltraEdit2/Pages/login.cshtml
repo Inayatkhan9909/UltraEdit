@@ -1,0 +1,70 @@
+﻿@page
+@model UltraEdit2.Pages.loginModel
+@{
+}
+
+
+<div class="grid">
+
+    <div class="L_form">
+
+
+        <form action="post">
+
+            <div class="L_title">
+                <h1>UltraEdit</h1>
+                <h3>login to your account</h3>
+            </div>
+
+            <div class="fb_google">
+
+                <button class="btn_fb">
+                    <a href="https://www.facebook.com/">
+                        <img src="~/images/icons8-facebook-48.png" width="24" alt="">
+                        facebook
+                    </a>
+                </button>
+                <button>
+                    <a href="https://myaccount.google.com/">
+                        <img src="~/images/icons8-google-48.png" width="24" alt=""> Google
+                    </a>
+                </button>
+            </div>
+
+            <div class="L_details">
+                <div class="div_username">
+                    <label for="username_input">Username</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+
+                <div class="div_password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div class="forgot">
+                    <a href="forgot.html">forgot your Password?</a>
+                </div>
+
+                <div class="btn_login">
+                    <button><a href="login.html">log in</a></button>
+                </div>
+
+                <div class="dont_have">
+
+                    <span>Don't have an account? <a href="/signup">Create new account</a></span>
+                </div>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+    <div class="image">
+        <img src="~/images/New_UE_ss_login_2.png" alt="">
+    </div>
+</div>
+
+

@@ -1,0 +1,117 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+
+nav {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI';
+}
+
+.img {
+    width: 20vh;
+}
+
+.content ul {
+    display: flex;
+    gap: 25px;
+}
+
+    .content ul li {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+    }
+
+        .content ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+    .content ul li {
+        cursor: pointer;
+    }
+
+
+
+.rb_content {
+    margin: 20px 0px;
+    width: 95vw;
+}
+.pb_3{
+    height:fit-content
+}
+
+
+
+/*footer part*/
+
+footer {
+    margin-top: 20vh;
+   
+    width: fit-content;
+    height: fit-content;
+}
+
+.div_line{
+    margin-top:4vh;
+    width:99vw;
+    height:3px;
+    background-color:black;
+}
+.main_foot {
+    margin-top: 10vh;
+    margin-left: 15vw;
+    display: grid;
+    width: 83vw;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+}
+
+.foot div {
+    margin-top: 5px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub_all{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.sub_all input{
+    font-size:18px;
+    padding:5px;
+    width:60%;
+    border-radius:5px;
+
+}
+.subscribe {
+    display: flex;
+    width:60%;
+    align-content: center;
+    justify-content:center;
+}
+
+
+    .subscribe button {
+        font-size: 13px;
+        padding: 10px;
+        margin-top:2vh;
+        width: 80%;
+        background-color: #00b6d1;
+        border-radius: 5px;
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+    }
+

@@ -1,0 +1,136 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+
+nav[b-1g494l3umm] {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI';
+}
+
+.img[b-1g494l3umm] {
+    width: 20vh;
+}
+
+.content ul[b-1g494l3umm] {
+    display: flex;
+    gap: 25px;
+}
+
+    .content ul li[b-1g494l3umm] {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+    }
+
+        .content ul li a[b-1g494l3umm] {
+            text-decoration: none;
+            color: black;
+        }
+
+    .content ul li[b-1g494l3umm] {
+        cursor: pointer;
+    }
+
+.svg_pro_options[b-1g494l3umm]{
+    display:none;
+    width:40vw;
+    height:50vh;
+    background-color:aqua;
+    display:none;
+    gap:30px;
+}
+
+.box[b-1g494l3umm] {
+    width: 4vw;
+    height: 5vh;
+    background-color: red;
+}
+
+.svg_pro:hover + .svg_pro_options[b-1g494l3umm] {
+    display:flex;
+
+}
+
+
+.rb_content[b-1g494l3umm] {
+    margin: 20px 0px;
+    width: 95vw;
+}
+.pb_3[b-1g494l3umm]{
+    height:fit-content
+}
+
+
+
+/*footer part*/
+
+footer[b-1g494l3umm] {
+    margin-top: 20vh;
+   
+    width: fit-content;
+    height: fit-content;
+}
+
+.div_line[b-1g494l3umm]{
+    margin-top:4vh;
+    width:99vw;
+    height:3px;
+    background-color:black;
+}
+.main_foot[b-1g494l3umm] {
+    margin-top: 10vh;
+    margin-left: 15vw;
+    display: grid;
+    width: 83vw;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+}
+
+.foot div[b-1g494l3umm] {
+    margin-top: 5px;
+}
+
+.foot a[b-1g494l3umm] {
+    text-decoration: none;
+    color: black;
+}
+
+.sub_all[b-1g494l3umm]{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.sub_all input[b-1g494l3umm]{
+    font-size:18px;
+    padding:5px;
+    width:60%;
+    border-radius:5px;
+
+}
+.subscribe[b-1g494l3umm] {
+    display: flex;
+    width:60%;
+    align-content: center;
+    justify-content:center;
+}
+
+
+    .subscribe button[b-1g494l3umm] {
+        font-size: 13px;
+        padding: 10px;
+        margin-top:2vh;
+        width: 80%;
+        background-color: #00b6d1;
+        border-radius: 5px;
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+    }
+

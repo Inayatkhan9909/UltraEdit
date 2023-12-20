@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UltraEdit2.props" />
+</Project>

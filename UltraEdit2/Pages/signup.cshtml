@@ -1,0 +1,80 @@
+﻿@page
+@model UltraEdit2.Pages.signupModel
+@{
+}
+
+
+
+
+
+
+
+<form class="s_form" action="post">
+
+
+    <div class="L_title">
+        <h1>UltraEdit</h1>
+        <h3>Create new account</h3>
+    </div>
+
+    <div class="s_fb_google">
+
+        <button class="s_btn_fb">
+            <a href="https://www.facebook.com/">
+                <img src="~/images/icons8-facebook-48.png" width="24"
+                     alt="">
+                facebook
+            </a>
+        </button>
+        <button>
+            <a href="https://www.google.com/">
+                <img src="~/images/icons8-google-48.png" width="24" alt="">
+                Google
+            </a>
+        </button>
+    </div>
+
+    <div class="s_details">
+        <div class="details_div fn">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div class="details_div ln">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <div class="details_div em">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="details_div ps">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+
+
+        <div class="btn_signup">
+            <button><a href="login.html">sign up</a></button>
+        </div>
+
+        <div class="have_account">
+
+            <span>Already member? <a href="/login"> Log in</a></span>
+        </div>
+
+
+        <div class="privacy_policy">
+            <p>
+                By creating an account, you agree to UltraEdit <a href="/Terms_conditions">Terms of Service</a> and
+                <a href="/Privacy-policy">Privacy Policy</a>
+            </p>
+        </div>
+    </div>
+
+
+
+</form>
+
+
