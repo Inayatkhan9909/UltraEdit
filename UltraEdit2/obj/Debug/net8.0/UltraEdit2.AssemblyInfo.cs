@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UltraEdit2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+511e1d443b16f5bf97222da04ea4101903879d30")]
 [assembly: System.Reflection.AssemblyProductAttribute("UltraEdit2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UltraEdit2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

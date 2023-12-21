@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v8.0": {
       "UltraEdit2/1.0.0": {
         "dependencies": {
+          "BCrypt.Net": "0.1.0",
           "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "UltraEdit2.dll": {}
+        }
+      },
+      "BCrypt.Net/0.1.0": {
+        "runtime": {
+          "lib/net35/BCrypt.Net.dll": {
+            "assemblyVersion": "0.1.4141.31969",
+            "fileVersion": "0.1.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -96,6 +105,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sST2w361Dxt9GGMfpOTiK50wXGV64Ybb1hiX3xjEWnhVYZNF43NuySGwADJa7X1R+bA53NsFR+tuDxcYiJeIOA==",
+      "path": "bcrypt.net/0.1.0",
+      "hashPath": "bcrypt.net.0.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

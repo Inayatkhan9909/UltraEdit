@@ -36,3 +36,5 @@ C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\bin
 C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\obj\Debug\net8.0\UltraEdit2.csproj.AssemblyReference.cache
 C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\obj\Debug\net8.0\UltraEdit2.csproj.CopyComplete
+C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\obj\Debug\net8.0\UltraEdit2.sourcelink.json
+C:\Users\inaya\OneDrive\Desktop\asp web app\UltraEdit2\UltraEdit2\UltraEdit2\bin\Debug\net8.0\BCrypt.Net.dll

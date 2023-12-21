@@ -1,5 +1,5 @@
 ﻿@page
-@model UltraEdit2.Pages.signupModel
+@model UltraEdit2.Pages.SignupModel
 @{
 }
 
@@ -7,9 +7,7 @@
 
 
 
-
-
-<form class="s_form" action="post">
+<form class="s_form" method="post">
 
 
     <div class="L_title">
@@ -37,27 +35,33 @@
     <div class="s_details">
         <div class="details_div fn">
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname" required>
+            <input type="text" name="firstname" id="firstname" required value="@Model.Ur.firstname">
         </div>
         <div class="details_div ln">
             <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname" required>
+            <input type="text" name="lastname" id="lastname" required value="@Model.Ur.lastname">
         </div>
         <div class="details_div em">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" required value="@Model.Ur.email">
         </div>
 
         <div class="details_div ps">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" value="@Model.Ur.password">
         </div>
 
 
 
         <div class="btn_signup">
-            <button><a href="login.html">sign up</a></button>
+            <button type="submit">sign up</button>
         </div>
+     @*  uhkj @*  @{
+            if (errorMessage.length > 0)
+            {
+                <div> <p> some thing went wrong </p></div>
+            }
+        }  *@
 
         <div class="have_account">
 

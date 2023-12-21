@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4FPgd093CStYz2/Zgsh4jJJ5ZQpGKRLqaurInbIRTS8=",
+  "Hash": "ystoDzL3mCol6J4SN/LJPD5HwoegqbbwVEUc1Tvl3XE=",
   "Source": "UltraEdit2",
   "BasePath": "_content/UltraEdit2",
   "Mode": "Default",
@@ -321,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\images\\Text-code editing.png"
     },
     {
+      "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\ue_english.exe",
+      "SourceId": "UltraEdit2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\",
+      "BasePath": "_content/UltraEdit2",
+      "RelativePath": "images/ue_english.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ue_english.exe"
+    },
+    {
       "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\ultraedit.png",
       "SourceId": "UltraEdit2",
       "SourceType": "Discovered",
@@ -338,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ultraedit.png"
+    },
+    {
+      "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\Ultraedit_rateus.webp",
+      "SourceId": "UltraEdit2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\",
+      "BasePath": "_content/UltraEdit2",
+      "RelativePath": "images/Ultraedit_rateus.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ultraedit_rateus.webp"
     },
     {
       "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\Web development.png",

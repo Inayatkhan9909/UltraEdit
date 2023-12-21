@@ -35,25 +35,6 @@ nav[b-1g494l3umm] {
         cursor: pointer;
     }
 
-.svg_pro_options[b-1g494l3umm]{
-    display:none;
-    width:40vw;
-    height:50vh;
-    background-color:aqua;
-    display:none;
-    gap:30px;
-}
-
-.box[b-1g494l3umm] {
-    width: 4vw;
-    height: 5vh;
-    background-color: red;
-}
-
-.svg_pro:hover + .svg_pro_options[b-1g494l3umm] {
-    display:flex;
-
-}
 
 
 .rb_content[b-1g494l3umm] {

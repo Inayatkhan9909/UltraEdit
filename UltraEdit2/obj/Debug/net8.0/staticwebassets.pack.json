@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\Text-code editing.png"
     },
     {
+      "Id": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\Ultraedit_rateus.webp",
+      "PackagePath": "staticwebassets\\images\\Ultraedit_rateus.webp"
+    },
+    {
       "Id": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\Web development.png",
       "PackagePath": "staticwebassets\\images\\Web development.png"
     },
@@ -63,6 +67,10 @@
     {
       "Id": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\mac-os-logo_2235.png",
       "PackagePath": "staticwebassets\\images\\mac-os-logo_2235.png"
+    },
+    {
+      "Id": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\ue_english.exe",
+      "PackagePath": "staticwebassets\\images\\ue_english.exe"
     },
     {
       "Id": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\ultraedit.png",
