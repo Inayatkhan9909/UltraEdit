@@ -16,8 +16,8 @@ namespace UltraEdit2.Pages
         {
             ConnectionString = configuration.GetConnectionString("DefaultConnection");
 
-
         }
+
 
         public User Ur = new();
 
@@ -34,7 +34,7 @@ namespace UltraEdit2.Pages
 
             if (Ur.firstname.Length == 0 || Ur.lastname.Length == 0 || Ur.email.Length == 0 || Ur.password.Length == 0)
             {
-                errorMessage = "All fields are required";
+                errorMessage = "All fields are required ";
                 return;
             }
             try
@@ -59,8 +59,9 @@ namespace UltraEdit2.Pages
                         command.Parameters.AddWithValue("@email", Ur.email);
                         command.Parameters.AddWithValue("@password", hashedpassword);
 
-
                         command.ExecuteNonQuery();
+
+                        SuccessMessage = "Registration Successfull";
 
                     }
 
@@ -74,15 +75,18 @@ namespace UltraEdit2.Pages
             {
 
                 Console.WriteLine(ex.ToString());
+                errorMessage= "Something went wrong";
             }
+
+
+
 
             Ur.firstname = "";
             Ur.lastname = "";
             Ur.email = "";
             Ur.password = "";
+            Thread.Sleep(3000);
             Response.Redirect("/login");
-
-
 
 
         }

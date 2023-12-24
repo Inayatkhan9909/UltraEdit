@@ -4,16 +4,35 @@
 }
 
 
+<div class="S_title">
+    <h1>UltraEdit</h1>
+    <h3>Create new account</h3>
+</div>
+
+@if (Model.errorMessage.Length > 0)
+{
+   
+    <div class="alert_warning" role="alert">
+    <strong>@Model.errorMessage</strong>
+    <span class="btn-close" onclick="closeAlert()">
+            <img src="~/images/cross-svgrepo-com.svg" width="30" alt="">
+        </span>
+</div>
+
+}
 
 
+@if (Model.SuccessMessage.Length > 0)
+{
+    <div class="alert_success">
+        <strong>@Model.SuccessMessage</strong>
+       
+    </div>
+}
 
 <form class="s_form" method="post">
 
 
-    <div class="L_title">
-        <h1>UltraEdit</h1>
-        <h3>Create new account</h3>
-    </div>
 
     <div class="s_fb_google">
 
@@ -35,11 +54,11 @@
     <div class="s_details">
         <div class="details_div fn">
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname" required value="@Model.Ur.firstname">
+            <input type="text" name="firstname" id="firstname"  value="@Model.Ur.firstname">
         </div>
         <div class="details_div ln">
             <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname" required value="@Model.Ur.lastname">
+            <input type="text" name="lastname" id="lastname"  value="@Model.Ur.lastname">
         </div>
         <div class="details_div em">
             <label for="email">Email</label>
@@ -56,12 +75,7 @@
         <div class="btn_signup">
             <button type="submit">sign up</button>
         </div>
-     @*  uhkj @*  @{
-            if (errorMessage.length > 0)
-            {
-                <div> <p> some thing went wrong </p></div>
-            }
-        }  *@
+        
 
         <div class="have_account">
 

@@ -96,21 +96,30 @@
     width: 18vw;
     height: 18vh;
     background-color: rgb(241, 241, 237);
-    padding-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .card_apple {
     width: 18vw;
     height: 18vh;
     background-color: rgb(241, 241, 237);
-    padding-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .card_linux {
     width: 18vw;
     height: 18vh;
     background-color: rgb(241, 241, 237);
-    padding-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .windows_top {
@@ -118,11 +127,34 @@
     gap: 5px;
 }
 
-    
+.div_download_btn_card_windows{
+    display:flex;
+    padding:8px;
+    font-size:1.2em;
+   
+}
 
-    .windows_top h4 {
-        font-weight: lighter;
-    }
+.div_download_btn_card_linux {
+    display: flex;
+    padding: 8px 0px;
+    font-size: 1.2em;
+}
+
+.div_download_btn_card_linux p{
+    display: flex;
+   margin-left:5px;
+    font-size: 0.9em;
+}
+
+.div_h4_card_windows p {
+   margin-left:6px;
+    font-size: 1em;
+}
+
+
+.windows_top h4 {
+    font-weight: lighter;
+}
 
     .windows_top p {
         font-weight: lighter;
@@ -134,10 +166,17 @@
     padding: 10px;
     width: 90%;
     background-color: #00b6d1;
+    border:none;
     border-radius: 5px;
     font-weight: bold;
     font-style: normal;
     text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+}
+
+.download a {
     text-decoration: none;
     color: white;
 }
@@ -320,6 +359,79 @@ form {
 }
 
 
+.S_title{
+ margin-left:35vw;
+    width:30vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+}
+
+/*.alert_warning {
+    height: 5vh;
+    width: 55vw;
+    margin-left: 25vh;
+    background-color: rgb(240, 240, 97);
+    
+    font-size: 18px;
+    color: black;
+}
+.alert_warning strong {
+    padding:7px 20px;
+    margin-top:15px;
+}*/
+
+.alert_warning {
+    position: relative;
+    padding: 15px;
+    background-color: #ffc107; /* Use your desired warning color */
+    color: #856404; /* Use your desired text color */
+    border: 1px solid #ffc107; /* Use your desired border color */
+    border-radius: 4px; /* Use your desired border radius */
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*.alert_success {
+    height: 10vh;
+    width: 60vw;
+    margin-left: 20vh;
+    background-color: forestgreen;
+   
+    font-size: 18px;
+    color: black;
+}*/
+
+.alert_success {
+  
+    padding: 15px;
+    background-color: #28a745; 
+    color: #fff; 
+    border: 1px solid #218838; 
+    border-radius: 4px; 
+    margin: 10px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .alert_success strong {
+        margin-right: 10px; 
+    }
+
+
+
+
 
 .s_form {
     display: flex;
@@ -440,3 +552,150 @@ form {
         text-decoration: none;
         color: red;
     }
+
+
+
+   /* WinFile CSS*/
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+    .head h1 {
+        font-weight: lighter;
+        font-size: 2.7em;
+    }
+
+.h_content {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+    .h_content h3 {
+        font-weight: lighter;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+.download_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+    .download_top button {
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #00b6d1;
+        width: 20vw;
+        height: 7vh;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+    }
+
+    .download_top a {
+        text-decoration: none;
+    }
+
+.UE_full {
+    display: flex;
+    margin-left: 18vw;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.UE {
+    background-image: url(https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 4vw;
+}
+
+.UE_content {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+    .UE_content A {
+        color: black;
+        text-decoration: NONE;
+    }
+
+    .UE_content h2 {
+        font-weight: lighter;
+    }
+
+.main_downloadlist {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    gap: 20px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+
+.download1 {
+    background-color: rgb(242, 245, 247);
+    display: grid;
+    grid-template-areas: "lang lang "
+        "bit32 bit64";
+}
+
+
+
+.language {
+    grid-area: lang;
+    justify-self: center;
+    align-self: center;
+}
+
+    .language span {
+        font-size: 0.9em;
+    }
+
+.bit32 {
+    grid-area: bit32;
+    justify-self: center;
+    align-self: center;
+}
+
+.bit64 {
+    grid-area: bit64;
+    justify-self: center;
+    align-self: center;
+}
+
+.bit32 a {
+    font-size: 16px;
+    background-color: #00b6d1;
+    text-transform: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 5px;
+    color: white;
+}
+
+.bit64 a {
+    font-size: 16px;
+    background-color: #1b8c19;
+    text-transform: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 5px;
+    color: white;
+}

@@ -2,3 +2,10 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+
+
+    function closeAlert() {
+        var alert = document.querySelector('.alert_warning');
+    alert.style.display = 'none';
+    }

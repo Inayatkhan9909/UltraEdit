@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ystoDzL3mCol6J4SN/LJPD5HwoegqbbwVEUc1Tvl3XE=",
+  "Hash": "ClBnzY1fobtFMe4USFLWDyoNnCk3zSo0S94BvxPkTHo=",
   "Source": "UltraEdit2",
   "BasePath": "_content/UltraEdit2",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\cross-svgrepo-com.svg",
+      "SourceId": "UltraEdit2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\",
+      "BasePath": "_content/UltraEdit2",
+      "RelativePath": "images/cross-svgrepo-com.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cross-svgrepo-com.svg"
     },
     {
       "Identity": "C:\\Users\\inaya\\OneDrive\\Desktop\\asp web app\\UltraEdit2\\UltraEdit2\\UltraEdit2\\wwwroot\\images\\File compare.png",
